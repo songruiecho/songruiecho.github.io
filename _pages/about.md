@@ -51,32 +51,25 @@ My research interests are in natural language processing, shortcut learning/bias
 <span class='anchor' id='-xl'></span>
 ## 📚 Selected Publications | 代表论文
 
-- 📄[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)<br>
-  📘 *SCIENCE CHINA Information Sciences (SCIS), 2025*, 中科院一区 Top, CCF A<br>
-  🖊 **Rui Song**, Fausto Giunchiglia, Yingji Li, Mingjie Tian, & Hao Xu.
+- 📄[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)<br>*SCIENCE CHINA Information Sciences (SCIS), 2025*, 中科院一区 Top, CCF A<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, & Hao Xu.
 
-- 📄[TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification](https://ojs.aaai.org/index.php/AAAI/article/view/29866)<br>
-  📘 *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024*, CCF A<br>
-  🖊 **Rui Song**, Yingji Li, Fausto Giunchiglia, & Hao Xu.
+- 📄[TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification](https://ojs.aaai.org/index.php/AAAI/article/view/29866)<br> *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024*, CCF A<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Yingji Li, Fausto Giunchiglia, & Hao Xu.
 
-- 📄[Causal keyword driven reliable text classification with large language model feedback](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br>
-  📘 *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
-  🖊 **Rui Song**, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, & Hao Xu.
+- 📄[Causal keyword driven reliable text classification with large language model feedback](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, & Hao Xu.
 
-- 📄[KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br>
-  📘 *Knowledge-Based Systems (KBS), 2025*, 中科院一区 Top, CCF C<br>
-  🖊 **Rui Song**, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, & Hao Xu.
+- 📄[KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br> *Knowledge-Based Systems (KBS), 2025*, 中科院一区 Top, CCF C<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, & Hao Xu.
 
-- 📄[SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations](https://www.sciencedirect.com/science/article/pii/S0952197623004992)<br>
-  📘 *Engineering Applications of Artificial Intelligence (EAAI), 2023*, 中科院一区 Top, CCF C<br>
-  🖊 **Rui Song**, Fausto Giunchiglia, Lida Shi, Qiang Shen, & Hao Xu.
+- 📄[SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations](https://www.sciencedirect.com/science/article/pii/S0952197623004992)<br> *Engineering Applications of Artificial Intelligence (EAAI), 2023*, 中科院一区 Top, CCF C<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Lida Shi, Qiang Shen, & Hao Xu.
 
-- 📄[Measuring and mitigating language model biases in abusive language detection](https://www.sciencedirect.com/science/article/pii/S0306457323000146)<br>
-  📘 *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
-  🖊 **Rui Song**, Fausto Giunchiglia, Yingji Li, Lida Shi, & Hao Xu.
+- 📄[Measuring and mitigating language model biases in abusive language detection](https://www.sciencedirect.com/science/article/pii/S0306457323000146)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Lida Shi, & Hao Xu.
 
-- 📄[Improving abusive language detection with online interaction network](https://www.sciencedirect.com/science/article/pii/S0306457322001200)<br>
-  📘 *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
+- 📄[Improving abusive language detection with online interaction network](https://www.sciencedirect.com/science/article/pii/S0306457322001200)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
   🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Qiang Shen, Nan Li, & Hao Xu.
 
 <span class='anchor' id='-lwzl'></span>
