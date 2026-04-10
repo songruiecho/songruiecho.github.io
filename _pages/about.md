@@ -72,6 +72,9 @@ My research interests are in natural language processing, shortcut learning/bias
 - 📄[Improving abusive language detection with online interaction network](https://www.sciencedirect.com/science/article/pii/S0306457322001200)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
   🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Qiang Shen, Nan Li, & Hao Xu.
 
+- 📄[Counterfactual contrastive learning for robust text classification based on word group search](https://www.sciencedirect.com/science/article/pii/S0020025525007121)<br> *Information Sciences, 2025*, CCF B<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Lida Shi, & Hao Xu.
+
 <span class='anchor' id='-lwzl'></span>
 
 
