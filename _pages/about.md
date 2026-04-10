@@ -29,7 +29,7 @@ My research interests are in natural language processing, shortcut learning/bias
   - Mentor [Prof. Fausto Giunchiglia](http://fausto.disi.unitn.it) (**Member of the European Academy of Sciences**, **Foreign Member of Chinese Academy of Sciences**) and [Prof. Hao Xu (徐昊)](https://ccst.jlu.edu.cn/info/1367/19077.htm)
     
 - **M.S.** College of Computer Science and Technology, Jilin University *(2018 - 2020)*
-  - Mentor [Prof. Huang Lan (黄岚)](https://ccst.jlu.edu.cn/info/1194/17198.htm)
+  - Mentor [Prof. Lan Huang (黄岚)](https://ccst.jlu.edu.cn/info/1194/17198.htm)
 
 - **B.S.** School of Software Engineering, Jilin University *(2014 - 2018)*
 
