@@ -51,6 +51,12 @@ My research interests are in natural language processing, shortcut learning/bias
 <span class='anchor' id='-xl'></span>
 ## 📚 Selected Publications | 代表论文
 
+- 📄Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval<br>*ACL main (🗣 Oral), 2026*, CCF A<br>
+  🖊 Hao Xu, Rite Bo, Fausto Giunchiglia, Yingji Li & <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song*</span>.
+
+- 📄[Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning](https://arxiv.org/pdf/2604.11299)<br>*ACL main, 2026*, CCF A<br>
+  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Lida Shi, Ruihua Qi, Yingji Li & Hao Xu.
+
 - 📄[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)<br>*SCIENCE CHINA Information Sciences (SCIS), 2025*, 中科院一区 Top, CCF A<br>
   🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, & Hao Xu.
 
