@@ -38,6 +38,8 @@ My research interests are in natural language processing, shortcut learning/bias
 
 <span class='anchor' id='-xl'></span>
 ## 📰 News | 新闻
+- 📢 **[Papers 2026-8-22]** Our paper "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" has been accepted by _Information Fusion_, **IF 17.4**.
+- 📢 **[Papers 2026-8-21]** Our paper "Jasper-Flash: Elastic Token Compression and Progressive Distillation for Inference-Scalable Text Embedding Models" has been accepted by _EMNLP 2026 main_, **CCF B**.
 - 📢 **[Papers 2026-4-8]** Five papers (2 main, 3 findings) have been accepted by ACL 2026!!!
 - 📢 **[Papers 2025-12-19]** Our paper "[AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora](https://arxiv.org/abs/2512.17756)" has been accepted by _AAAI2026_, **CCF A**.
 - 📢 **[Papers 2025-8-20]** Our paper "[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)" has been accepted by _SCIENCE CHINA Information Sciences_, **CCF A**.
