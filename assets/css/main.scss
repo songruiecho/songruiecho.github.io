@@ -169,6 +169,7 @@ body.lang-zh p[data-lang="zh"] {
 
 #main {
     max-width: 1180px;
+    margin-top: 2.25rem;
 }
 
 @include breakpoint($large) {
@@ -219,6 +220,7 @@ body.lang-zh p[data-lang="zh"] {
 .home-section {
     margin: 2rem 0;
     padding: clamp(1.35rem, 3vw, 2rem);
+    scroll-margin-top: 6rem;
     border: 1px solid rgba(43, 72, 101, 0.1);
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.82);
@@ -236,12 +238,10 @@ body.lang-zh p[data-lang="zh"] {
 }
 
 .focus-panel {
-    display: grid;
-    grid-template-columns: minmax(10rem, 0.75fr) minmax(0, 2fr);
-    gap: 1.25rem;
-    align-items: start;
+    display: block;
 
-    p:last-child {
+    > p {
+        max-width: 100%;
         margin-bottom: 0;
         font-size: 1.05rem;
         line-height: 1.75;
@@ -455,6 +455,7 @@ body.lang-zh p[data-lang="zh"] {
 .author__research-tags {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 0.4rem;
     margin: 0.75rem 0 1rem;
     max-width: 100%;
@@ -464,6 +465,7 @@ body.lang-zh p[data-lang="zh"] {
     span {
         display: inline-flex;
         align-items: center;
+        justify-content: center;
         max-width: 100%;
         min-height: 1.6rem;
         padding: 0.18rem 0.48rem;
@@ -475,6 +477,7 @@ body.lang-zh p[data-lang="zh"] {
         font-size: 0.78rem;
         font-weight: 800;
         line-height: 1.25;
+        text-align: center;
         white-space: normal;
     }
 }
@@ -497,7 +500,6 @@ body.lang-zh p[data-lang="zh"] {
 }
 
 @media (max-width: 925px) {
-    .focus-panel,
     .education-grid,
     .project-grid,
     .timeline-list article {
