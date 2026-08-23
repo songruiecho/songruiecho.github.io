@@ -163,7 +163,8 @@ body.lang-zh [data-lang="zh"] {
     display: inline !important;
 }
 
-body.lang-zh p[data-lang="zh"] {
+body.lang-zh p[data-lang="zh"],
+body.lang-zh .about-copy[data-lang="zh"] {
     display: block !important;
 }
 
@@ -237,14 +238,35 @@ body.lang-zh p[data-lang="zh"] {
     }
 }
 
+.page__content > .home-section:first-child {
+    margin-top: 3.25rem;
+}
+
 .focus-panel {
     display: block;
+    width: 100%;
+    max-width: none;
 
-    > p {
-        max-width: 100%;
+    > div {
+        display: block;
+        width: 100%;
+        max-width: none;
+    }
+
+    .about-copy {
+        display: block !important;
+        width: 100% !important;
+        max-width: none !important;
+        min-width: 0;
         margin-bottom: 0;
         font-size: 1.05rem;
         line-height: 1.75;
+        white-space: normal;
+
+        a {
+            display: inline;
+            width: auto;
+        }
     }
 }
 

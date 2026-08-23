@@ -19,14 +19,14 @@ redirect_from:
       <span data-lang="zh">简介</span>
     </h2>
   </div>
-  <p data-lang="en">
+  <p class="about-copy" data-lang="en">
     I am currently a postdoctoral fellow at the
     <a href="https://ccst.jlu.edu.cn/">College of Computer Science and Technology</a>,
     <a href="https://www.jlu.edu.cn/">Jilin University</a>. My recent work asks how
     language models can generalize beyond brittle shortcuts, learn from better
     demonstrations, and serve humanities research on ancient Chinese scripts.
   </p>
-  <p data-lang="zh">
+  <p class="about-copy" data-lang="zh">
     我目前为<a href="https://www.jlu.edu.cn/">吉林大学</a>
     <a href="https://ccst.jlu.edu.cn/">计算机科学与技术学院</a>博士后。
     近期研究关注语言模型如何摆脱脆弱捷径、从更优示例中学习，并服务于古文字等人文研究场景。
