@@ -130,8 +130,56 @@ body {
     font-weight: 700;
 }
 
+.language-toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    min-height: 2rem;
+    padding: 0.2rem 0.55rem;
+    border: 1px solid rgba(29, 95, 167, 0.18);
+    border-radius: 999px;
+    background: #fff;
+    color: #26384b;
+    font: inherit;
+    font-weight: 800;
+    cursor: pointer;
+    box-shadow: 0 8px 22px rgba(37, 78, 119, 0.08);
+
+    &:hover {
+        color: #123f70;
+        border-color: rgba(29, 95, 167, 0.34);
+    }
+}
+
+[data-lang="zh"] {
+    display: none !important;
+}
+
+body.lang-zh [data-lang="en"] {
+    display: none !important;
+}
+
+body.lang-zh [data-lang="zh"] {
+    display: inline !important;
+}
+
+body.lang-zh p[data-lang="zh"] {
+    display: block !important;
+}
+
 #main {
     max-width: 1180px;
+}
+
+@include breakpoint($large) {
+    .sidebar {
+        width: 24%;
+    }
+
+    .page {
+        width: 73%;
+        padding-left: 2%;
+    }
 }
 
 .page__content {
@@ -232,33 +280,6 @@ body {
     color: #fff !important;
 }
 
-.hero-metrics {
-    position: relative;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 0.75rem;
-    max-width: 760px;
-    margin-top: 1.8rem;
-
-    div {
-        padding: 1rem;
-        border: 1px solid rgba(43, 72, 101, 0.1);
-        border-radius: 8px;
-        background: rgba(255, 255, 255, 0.78);
-    }
-
-    strong {
-        display: block;
-        color: #10263d;
-        font-size: 1.18rem;
-    }
-
-    span {
-        color: #617080;
-        font-size: 0.88rem;
-    }
-}
-
 .home-section {
     margin: 2rem 0;
     padding: clamp(1.35rem, 3vw, 2rem);
@@ -356,9 +377,49 @@ body {
     }
 }
 
+.mentor-honor {
+    display: inline-block;
+    margin: 0 0.25rem;
+    padding: 0.14rem 0.45rem;
+    border-radius: 999px;
+    background: #fff3d8;
+    color: #7a4200;
+    font-size: 0.86rem;
+    font-weight: 800;
+    line-height: 1.55;
+}
+
 .publication-list {
     display: grid;
     gap: 0.9rem;
+}
+
+.publication-list--more,
+.timeline-list--more {
+    margin-top: 0.9rem;
+}
+
+.expandable-list {
+    margin-top: 0.9rem;
+
+    summary {
+        display: inline-flex;
+        align-items: center;
+        min-height: 2.35rem;
+        padding: 0.48rem 0.82rem;
+        border: 1px solid rgba(29, 95, 167, 0.2);
+        border-radius: 6px;
+        background: #fff;
+        color: #194c82;
+        font-weight: 800;
+        cursor: pointer;
+        box-shadow: 0 10px 24px rgba(27, 75, 123, 0.07);
+
+        &:hover {
+            border-color: rgba(29, 95, 167, 0.36);
+            background: #f8fbff;
+        }
+    }
 }
 
 .publication-item {
@@ -462,10 +523,6 @@ body {
     .education-grid,
     .project-grid,
     .timeline-list article {
-        grid-template-columns: 1fr;
-    }
-
-    .hero-metrics {
         grid-template-columns: 1fr;
     }
 

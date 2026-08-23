@@ -1,4 +1,41 @@
 <script src="assets/js/main.min.js"></script>
+<script>
+  (function () {
+    var toggle = document.querySelector("[data-language-toggle]");
+    var label = document.querySelector("[data-language-label]");
+    var storageKey = "homepage-language";
+
+    function applyLanguage(language) {
+      var isChinese = language === "zh";
+      document.body.classList.toggle("lang-zh", isChinese);
+      document.documentElement.lang = isChinese ? "zh-CN" : "en";
+      if (label) {
+        label.textContent = isChinese ? "English" : "中文";
+      }
+      try {
+        window.localStorage.setItem(storageKey, language);
+      } catch (error) {}
+    }
+
+    if (toggle) {
+      var initialLanguage = "en";
+      try {
+        initialLanguage = window.localStorage.getItem(storageKey) || initialLanguage;
+      } catch (error) {}
+      applyLanguage(initialLanguage);
+      var switchLanguage = function () {
+        applyLanguage(document.body.classList.contains("lang-zh") ? "en" : "zh");
+      };
+      toggle.addEventListener("click", switchLanguage);
+      toggle.addEventListener("keydown", function (event) {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          switchLanguage();
+        }
+      });
+    }
+  }());
+</script>
 
 {% include analytics.html %}
 {% include fetch_google_scholar_stats.html %}
