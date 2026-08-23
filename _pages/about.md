@@ -3,92 +3,205 @@ permalink: /
 title: ""
 excerpt: ""
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-{% if site.google_scholar_stats_use_cdn %}
-{% assign gsDataBaseUrl = "https://cdn.jsdelivr.net/gh/" | append: site.repository | append: "@" %}
-{% else %}
-{% assign gsDataBaseUrl = "https://raw.githubusercontent.com/" | append: site.repository | append: "/" %}
-{% endif %}
-{% assign url = gsDataBaseUrl | append: "google-scholar-stats/gs_data_shieldsio.json" %}
+<section class="home-hero" id="about-me">
+  <div class="hero-eyebrow">Postdoctoral Fellow · Natural Language Processing</div>
+  <h1>Rui Song</h1>
+  <p class="hero-lede">
+    I study robust and trustworthy language intelligence, with a focus on
+    in-context learning, shortcut learning, bias mitigation in pretrained
+    language models, and AI-empowered ancient Chinese script research.
+  </p>
+  <div class="hero-actions">
+    <a href="#publications" class="hero-button hero-button--primary">Selected Publications</a>
+    <a href="#news" class="hero-button">Latest News</a>
+    <a href="mailto:songrui@jlu.edu.cn" class="hero-button">Contact</a>
+  </div>
+  <div class="hero-metrics" aria-label="Research highlights">
+    <div>
+      <strong>Postdoc</strong>
+      <span>Jilin University</span>
+    </div>
+    <div>
+      <strong>CCF A</strong>
+      <span>ACL · AAAI · SCIS</span>
+    </div>
+    <div>
+      <strong>NLP</strong>
+      <span>Robustness · Bias · ICL</span>
+    </div>
+  </div>
+</section>
 
-<span class='anchor' id='about-me'></span>
+<section class="home-section focus-panel">
+  <div>
+    <p class="section-kicker">Current Position</p>
+    <h2>About Me</h2>
+  </div>
+  <p>
+    I am currently a postdoctoral fellow at the
+    <a href="https://ccst.jlu.edu.cn/">College of Computer Science and Technology</a>,
+    <a href="https://www.jlu.edu.cn/">Jilin University</a>. My recent work asks how
+    language models can generalize beyond brittle shortcuts, learn from better
+    demonstrations, and serve humanities research on ancient Chinese scripts.
+  </p>
+</section>
 
+<section class="home-section" id="news">
+  <div class="section-heading">
+    <p class="section-kicker">Recent Updates</p>
+    <h2>News</h2>
+  </div>
+  <div class="timeline-list">
+    <article>
+      <time>2026-08-22</time>
+      <p>Our paper "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" has been accepted by <em>Information Fusion</em>, IF 17.4.</p>
+    </article>
+    <article>
+      <time>2026-08-21</time>
+      <p>Our paper "Jasper-Flash: Elastic Token Compression and Progressive Distillation for Inference-Scalable Text Embedding Models" has been accepted by <em>EMNLP 2026 main</em>, CCF B.</p>
+    </article>
+    <article>
+      <time>2026-04-08</time>
+      <p>Five papers, including 2 main conference papers and 3 findings papers, have been accepted by ACL 2026.</p>
+    </article>
+    <article>
+      <time>2025-12-19</time>
+      <p>Our paper <a href="https://arxiv.org/abs/2512.17756">"AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora"</a> has been accepted by <em>AAAI 2026</em>, CCF A.</p>
+    </article>
+    <article>
+      <time>2025-08-20</time>
+      <p>Our paper <a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">"Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning"</a> has been accepted by <em>SCIENCE CHINA Information Sciences</em>, CCF A.</p>
+    </article>
+  </div>
+</section>
 
-I am currently a postdoctoral fellow at the [College of Computer Science and Technology](https://ccst.jlu.edu.cn/), [Jilin University](https://www.jlu.edu.cn/).
-My research interests are in natural language processing, shortcut learning/bias in pretrained language models. I am also exploring research on ancient Chinese scripts empowered by artificial intelligence.
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Academic Path</p>
+    <h2>Education</h2>
+  </div>
+  <div class="education-grid">
+    <article>
+      <span>2020 - 2024</span>
+      <h3>Ph.D. in Artificial Intelligence</h3>
+      <p>School of Artificial Intelligence, Jilin University</p>
+      <p>Mentors: <a href="http://fausto.disi.unitn.it">Prof. Fausto Giunchiglia</a> and <a href="https://ccst.jlu.edu.cn/info/1367/19077.htm">Prof. Hao Xu</a></p>
+    </article>
+    <article>
+      <span>2018 - 2020</span>
+      <h3>M.S. in Computer Science and Technology</h3>
+      <p>College of Computer Science and Technology, Jilin University</p>
+      <p>Mentor: <a href="https://ccst.jlu.edu.cn/info/1194/17198.htm">Prof. Lan Huang</a></p>
+    </article>
+    <article>
+      <span>2014 - 2018</span>
+      <h3>B.S. in Software Engineering</h3>
+      <p>School of Software Engineering, Jilin University</p>
+    </article>
+  </div>
+</section>
 
-## 🎓 Education | 教育经历
+<section class="home-section" id="publications">
+  <div class="section-heading">
+    <p class="section-kicker">Selected Work</p>
+    <h2>Selected Publications</h2>
+  </div>
+  <div class="publication-list">
+    <article class="publication-item publication-item--featured">
+      <div class="publication-meta">
+        <span>ACL 2026 Main · Oral · CCF A</span>
+      </div>
+      <h3>Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval</h3>
+      <p>Hao Xu, Rite Bo, Fausto Giunchiglia, Yingji Li, and <mark>Rui Song*</mark></p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>ACL 2026 Main · CCF A</span>
+      </div>
+      <h3><a href="https://arxiv.org/pdf/2604.11299">Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning</a></h3>
+      <p><mark>Rui Song</mark>, Lida Shi, Ruihua Qi, Yingji Li, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>SCIENCE CHINA Information Sciences 2025 · CCF A</span>
+      </div>
+      <h3><a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>AAAI 2024 · CCF A</span>
+      </div>
+      <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29866">TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification</a></h3>
+      <p><mark>Rui Song</mark>, Yingji Li, Fausto Giunchiglia, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>Information Processing & Management 2025 · CCF B</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">Causal keyword driven reliable text classification with large language model feedback</a></h3>
+      <p><mark>Rui Song</mark>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>Knowledge-Based Systems 2025 · CCF C</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>EAAI 2023 · CCF C</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0952197623004992">SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Lida Shi, Qiang Shen, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>Information Processing & Management · CCF B</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457323000146">Measuring and mitigating language model biases in abusive language detection</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>Information Processing & Management · CCF B</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457322001200">Improving abusive language detection with online interaction network</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Qiang Shen, Nan Li, and Hao Xu</p>
+    </article>
+    <article class="publication-item">
+      <div class="publication-meta">
+        <span>Information Sciences 2025 · CCF B</span>
+      </div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0020025525007121">Counterfactual contrastive learning for robust text classification based on word group search</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
+    </article>
+  </div>
+</section>
 
-<span class='anchor' id='-xl'></span>
-
-- **Ph.D.** School of Artificial Intelligence, Jilin University *(2020 - 2024)*
-  - Mentor [Prof. Fausto Giunchiglia](http://fausto.disi.unitn.it) (**Member of the European Academy of Sciences**, **Foreign Member of Chinese Academy of Sciences**) and [Prof. Hao Xu (徐昊)](https://ccst.jlu.edu.cn/info/1367/19077.htm)
-    
-- **M.S.** College of Computer Science and Technology, Jilin University *(2018 - 2020)*
-  - Mentor [Prof. Lan Huang (黄岚)](https://ccst.jlu.edu.cn/info/1194/17198.htm)
-
-- **B.S.** School of Software Engineering, Jilin University *(2014 - 2018)*
-
-<span class='anchor' id='-lwzl'></span>
-
-
-<span class='anchor' id='-xl'></span>
-## 📰 News | 新闻
-- 📢 **[Papers 2026-8-22]** Our paper "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" has been accepted by _Information Fusion_, **IF 17.4**.
-- 📢 **[Papers 2026-8-21]** Our paper "Jasper-Flash: Elastic Token Compression and Progressive Distillation for Inference-Scalable Text Embedding Models" has been accepted by _EMNLP 2026 main_, **CCF B**.
-- 📢 **[Papers 2026-4-8]** Five papers (2 main, 3 findings) have been accepted by ACL 2026!!!
-- 📢 **[Papers 2025-12-19]** Our paper "[AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora](https://arxiv.org/abs/2512.17756)" has been accepted by _AAAI2026_, **CCF A**.
-- 📢 **[Papers 2025-8-20]** Our paper "[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)" has been accepted by _SCIENCE CHINA Information Sciences_, **CCF A**.
-- 📢 **[Papers 2025-8-9]** Our paper "[BATED: Learning Fair Representation for Pre-trained Language Models via Biased Teacher-Guided Disentanglement](https://www.sciencedirect.com/science/article/pii/S0004370225001201)" has been accepted by _Artificial Intelligence_, **CCF A**.
-- 📢 **[Papers 2025-8-8]** Our paper "[An empirical study of LLMs via in-context learning for stance classification](https://www.sciencedirect.com/science/article/pii/S0306457325002638)" has been accepted by _Information Processing & Management_.
-- 📢 **[Papers]** Our paper "[A Dual-Mind Framework for Strategic and Expressive Negotiation Agent](https://aclanthology.org/2025.acl-long.1161/)" has been accepted by _ACL_ 2025 main conference, **CCF A**.
-- 📢 **[Papers]** Our paper "[Self-supervised Preference Optimization: Enhance Your Language Model with Preference Degree Awareness](https://aclanthology.org/2024.findings-emnlp.845/)" has been accepted by *EMNLP* 2024 Findings.
-- 📢 **[Papers]** Our survey "[Shortcut Learning in In-Context Learning: A Survey](https://arxiv.org/abs/2411.02018)" has been uploaded to arxiv.
-<span class='anchor' id='-lwzl'></span>
-
-<span class='anchor' id='-xl'></span>
-## 📚 Selected Publications | 代表论文
-
-- 📄Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval<br>*ACL main (🗣 Oral), 2026*, CCF A<br>
-  🖊 Hao Xu, Rite Bo, Fausto Giunchiglia, Yingji Li & <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song*</span>.
-
-- 📄[Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning](https://arxiv.org/pdf/2604.11299)<br>*ACL main, 2026*, CCF A<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Lida Shi, Ruihua Qi, Yingji Li & Hao Xu.
-
-- 📄[Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning](http://engine.scichina.com/doi/10.1007/s11432-025-4558-9)<br>*SCIENCE CHINA Information Sciences (SCIS), 2025*, 中科院一区 Top, CCF A<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, & Hao Xu.
-
-- 📄[TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification](https://ojs.aaai.org/index.php/AAAI/article/view/29866)<br> *Proceedings of the AAAI Conference on Artificial Intelligence (AAAI), 2024*, CCF A<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Yingji Li, Fausto Giunchiglia, & Hao Xu.
-
-- 📄[Causal keyword driven reliable text classification with large language model feedback](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, & Hao Xu.
-
-- 📄[KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection](https://www.sciencedirect.com/science/article/pii/S0950705125006653)<br> *Knowledge-Based Systems (KBS), 2025*, 中科院一区 Top, CCF C<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, & Hao Xu.
-
-- 📄[SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations](https://www.sciencedirect.com/science/article/pii/S0952197623004992)<br> *Engineering Applications of Artificial Intelligence (EAAI), 2023*, 中科院一区 Top, CCF C<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Lida Shi, Qiang Shen, & Hao Xu.
-
-- 📄[Measuring and mitigating language model biases in abusive language detection](https://www.sciencedirect.com/science/article/pii/S0306457323000146)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Lida Shi, & Hao Xu.
-
-- 📄[Improving abusive language detection with online interaction network](https://www.sciencedirect.com/science/article/pii/S0306457322001200)<br> *Information Processing & Management (IPM), 2025*, 中科院一区 Top, CCF B<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Qiang Shen, Nan Li, & Hao Xu.
-
-- 📄[Counterfactual contrastive learning for robust text classification based on word group search](https://www.sciencedirect.com/science/article/pii/S0020025525007121)<br> *Information Sciences, 2025*, CCF B<br>
-  🖊 <span style="background-color:#e6f4ff; padding:2px 6px; border-radius:4px;">Rui Song</span>, Fausto Giunchiglia, Yingji Li, Lida Shi, & Hao Xu.
-
-<span class='anchor' id='-lwzl'></span>
-
-
-<span class='anchor' id='-xl'></span>
-## 🧬 Project | 项目
-- 🧪 中国博士后科学基金第76批面上资助， 大语言模型上下文学习中的分布外偏见缓解方法研究
-- 🧪 吉林省自然科学基金 面上项目， 面向大语言模型上下文学习的捷径学习缓解方法研究
-- 🧪 吉林省教育厅科学研究项目 优秀青年项目
-<span class='anchor' id='-lwzl'></span>
+<section class="home-section">
+  <div class="section-heading">
+    <p class="section-kicker">Funded Research</p>
+    <h2>Projects</h2>
+  </div>
+  <div class="project-grid">
+    <article>
+      <h3>China Postdoctoral Science Foundation</h3>
+      <p>Research on mitigating out-of-distribution bias in large language model in-context learning.</p>
+    </article>
+    <article>
+      <h3>Jilin Provincial Natural Science Foundation</h3>
+      <p>Research on shortcut learning mitigation for large language model in-context learning.</p>
+    </article>
+    <article>
+      <h3>Jilin Provincial Department of Education</h3>
+      <p>Excellent Young Scholar research project.</p>
+    </article>
+  </div>
+</section>

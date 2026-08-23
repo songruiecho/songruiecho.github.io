@@ -1,7 +1,11 @@
 # main links links
 main:
   - title: "简介"
-#    url: "/pages/#about-me"
+    url: "/#about-me"
+  - title: "新闻"
+    url: "/#news"
+  - title: "论文"
+    url: "/#publications"
 
 #  - title: "学历"
 #    url: "/zh-cn/#-xl"

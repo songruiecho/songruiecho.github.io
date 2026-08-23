@@ -6,8 +6,8 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Welcome to Rui Song's Homepage"
-description              : ""
+title                    : "Rui Song | NLP Researcher"
+description              : "Rui Song's academic homepage: natural language processing, robust in-context learning, bias mitigation, and AI for ancient Chinese scripts."
 repository               : "songruiecho/songruiecho.github.io"
 google_scholar_stats_use_cdn : false
 
