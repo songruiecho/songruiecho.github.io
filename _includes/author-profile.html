@@ -11,22 +11,22 @@
   <div class="author__content">
     <h3 class="author__name">{{ author.name }}</h3>
     {% if author.bio %}<p class="author__bio">{{ author.bio }}</p>{% endif %}
+    <div class="author__research-tags" aria-label="Research interests">
+      <span>Natural Language Processing</span>
+      <span>Robust In-Context Learning</span>
+      <span>Bias Mitigation</span>
+      <span>Ancient Chinese Scripts</span>
+    </div>
   </div>
 
   <div class="author__urls-wrapper">
     <!-- <button class="btn btn--inverse">More Info & Contact</button> -->
     <ul class="author__urls social-icons">
-      <li class="author__research-tags">
-        <span>Natural Language Processing</span>
-        <span>Robust In-Context Learning</span>
-        <span>Bias Mitigation</span>
-        <span>Ancient Chinese Scripts</span>
-      </li>
       {% if author.location %}
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer %}
-        <li><i class="fas fa-fw fa-graduation-cap" aria-hidden="true"></i> {{ author.employer }}</li>
+        <li><i class="fas fa-fw fa-university" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
       {% if author.uri %}
         <li><a href="{{ author.uri }}"><i class="fas fa-fw fa-link" aria-hidden="true"></i> Website</a></li>

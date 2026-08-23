@@ -442,6 +442,11 @@ body.lang-zh p[data-lang="zh"] {
     line-height: 1.15;
 }
 
+.author__content {
+    max-width: 100%;
+    min-width: 0;
+}
+
 .author__bio {
     color: #596a7a;
     font-weight: 700;
@@ -452,11 +457,14 @@ body.lang-zh p[data-lang="zh"] {
     flex-wrap: wrap;
     gap: 0.4rem;
     margin: 0.75rem 0 1rem;
-    white-space: normal !important;
+    max-width: 100%;
+    min-width: 0;
+    white-space: normal;
 
     span {
         display: inline-flex;
         align-items: center;
+        max-width: 100%;
         min-height: 1.6rem;
         padding: 0.18rem 0.48rem;
         border: 1px solid rgba(29, 95, 167, 0.16);
@@ -467,6 +475,7 @@ body.lang-zh p[data-lang="zh"] {
         font-size: 0.78rem;
         font-weight: 800;
         line-height: 1.25;
+        white-space: normal;
     }
 }
 
