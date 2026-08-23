@@ -34,6 +34,44 @@
         }
       });
     }
+
+    document.querySelectorAll("[data-expand-list]").forEach(function (list) {
+      var moreButton = list.querySelector("[data-expand-more]");
+      var collapseButton = list.querySelector("[data-expand-collapse]");
+      var hiddenItems = Array.prototype.slice.call(list.querySelectorAll("[data-expand-item]"));
+      var step = parseInt(list.getAttribute("data-step"), 10) || 3;
+
+      function updateControls() {
+        var remaining = hiddenItems.filter(function (item) {
+          return item.classList.contains("is-hidden");
+        });
+        if (moreButton) {
+          moreButton.classList.toggle("is-hidden", remaining.length === 0);
+        }
+        if (collapseButton) {
+          collapseButton.classList.toggle("is-hidden", remaining.length === hiddenItems.length);
+        }
+      }
+
+      if (moreButton) {
+        moreButton.addEventListener("click", function () {
+          hiddenItems
+            .filter(function (item) { return item.classList.contains("is-hidden"); })
+            .slice(0, step)
+            .forEach(function (item) { item.classList.remove("is-hidden"); });
+          updateControls();
+        });
+      }
+
+      if (collapseButton) {
+        collapseButton.addEventListener("click", function () {
+          hiddenItems.forEach(function (item) { item.classList.add("is-hidden"); });
+          updateControls();
+        });
+      }
+
+      updateControls();
+    });
   }());
 </script>
 

@@ -23,20 +23,6 @@ redirect_from:
     我的研究聚焦稳健可信的语言智能，包括大语言模型上下文学习、捷径学习、
     预训练语言模型偏见缓解，以及人工智能赋能古文字研究。
   </p>
-  <div class="hero-actions">
-    <a href="#publications" class="hero-button hero-button--primary">
-      <span data-lang="en">Selected Publications</span>
-      <span data-lang="zh">代表论文</span>
-    </a>
-    <a href="#news" class="hero-button">
-      <span data-lang="en">Latest News</span>
-      <span data-lang="zh">最新动态</span>
-    </a>
-    <a href="mailto:songrui@jlu.edu.cn" class="hero-button">
-      <span data-lang="en">Contact</span>
-      <span data-lang="zh">联系我</span>
-    </a>
-  </div>
 </section>
 
 <section class="home-section focus-panel">
@@ -140,7 +126,7 @@ redirect_from:
       <span data-lang="zh">新闻</span>
     </h2>
   </div>
-  <div class="timeline-list">
+  <div class="timeline-list expandable-items" data-expand-list data-step="2">
     <article>
       <time>2026-08-22</time>
       <p data-lang="en">Our paper "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" has been accepted by <em>Information Fusion</em>, IF 17.4.</p>
@@ -156,35 +142,31 @@ redirect_from:
       <p data-lang="en">Five papers, including 2 main conference papers and 3 findings papers, have been accepted by ACL 2026.</p>
       <p data-lang="zh">共有 5 篇论文被 ACL 2026 接收，其中 2 篇 main conference，3 篇 findings。</p>
     </article>
-  </div>
-  <details class="expandable-list">
-    <summary>
-      <span data-lang="en">Show more news</span>
-      <span data-lang="zh">查看更多新闻</span>
-    </summary>
-    <div class="timeline-list timeline-list--more">
-      <article>
-        <time>2025-12-19</time>
-        <p data-lang="en">Our paper <a href="https://arxiv.org/abs/2512.17756">"AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora"</a> has been accepted by <em>AAAI 2026</em>, CCF A.</p>
-        <p data-lang="zh">论文 <a href="https://arxiv.org/abs/2512.17756">"AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora"</a> 被 <em>AAAI 2026</em> 接收，CCF A。</p>
-      </article>
-      <article>
-        <time>2025-08-20</time>
-        <p data-lang="en">Our paper <a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">"Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning"</a> has been accepted by <em>SCIENCE CHINA Information Sciences</em>, CCF A.</p>
-        <p data-lang="zh">论文 <a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">"Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning"</a> 被 <em>SCIENCE CHINA Information Sciences</em> 接收，CCF A。</p>
-      </article>
-      <article>
-        <time>2025-08-09</time>
-        <p data-lang="en">Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0004370225001201">"BATED: Learning Fair Representation for Pre-trained Language Models via Biased Teacher-Guided Disentanglement"</a> has been accepted by <em>Artificial Intelligence</em>, CCF A.</p>
-        <p data-lang="zh">论文 <a href="https://www.sciencedirect.com/science/article/pii/S0004370225001201">"BATED: Learning Fair Representation for Pre-trained Language Models via Biased Teacher-Guided Disentanglement"</a> 被 <em>Artificial Intelligence</em> 接收，CCF A。</p>
-      </article>
-      <article>
-        <time>2025-08-08</time>
-        <p data-lang="en">Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0306457325002638">"An empirical study of LLMs via in-context learning for stance classification"</a> has been accepted by <em>Information Processing & Management</em>.</p>
-        <p data-lang="zh">论文 <a href="https://www.sciencedirect.com/science/article/pii/S0306457325002638">"An empirical study of LLMs via in-context learning for stance classification"</a> 被 <em>Information Processing & Management</em> 接收。</p>
-      </article>
+    <article class="is-hidden" data-expand-item>
+      <time>2025-12-19</time>
+      <p data-lang="en">Our paper <a href="https://arxiv.org/abs/2512.17756">"AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora"</a> has been accepted by <em>AAAI 2026</em>, CCF A.</p>
+      <p data-lang="zh">论文 <a href="https://arxiv.org/abs/2512.17756">"AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora"</a> 被 <em>AAAI 2026</em> 接收，CCF A。</p>
+    </article>
+    <article class="is-hidden" data-expand-item>
+      <time>2025-08-20</time>
+      <p data-lang="en">Our paper <a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">"Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning"</a> has been accepted by <em>SCIENCE CHINA Information Sciences</em>, CCF A.</p>
+      <p data-lang="zh">论文 <a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">"Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning"</a> 被 <em>SCIENCE CHINA Information Sciences</em> 接收，CCF A。</p>
+    </article>
+    <article class="is-hidden" data-expand-item>
+      <time>2025-08-09</time>
+      <p data-lang="en">Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0004370225001201">"BATED: Learning Fair Representation for Pre-trained Language Models via Biased Teacher-Guided Disentanglement"</a> has been accepted by <em>Artificial Intelligence</em>, CCF A.</p>
+      <p data-lang="zh">论文 <a href="https://www.sciencedirect.com/science/article/pii/S0004370225001201">"BATED: Learning Fair Representation for Pre-trained Language Models via Biased Teacher-Guided Disentanglement"</a> 被 <em>Artificial Intelligence</em> 接收，CCF A。</p>
+    </article>
+    <article class="is-hidden" data-expand-item>
+      <time>2025-08-08</time>
+      <p data-lang="en">Our paper <a href="https://www.sciencedirect.com/science/article/pii/S0306457325002638">"An empirical study of LLMs via in-context learning for stance classification"</a> has been accepted by <em>Information Processing & Management</em>.</p>
+      <p data-lang="zh">论文 <a href="https://www.sciencedirect.com/science/article/pii/S0306457325002638">"An empirical study of LLMs via in-context learning for stance classification"</a> 被 <em>Information Processing & Management</em> 接收。</p>
+    </article>
+    <div class="list-controls">
+      <button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more news">↓</button>
+      <button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse news">↑</button>
     </div>
-  </details>
+  </div>
 </section>
 
 <section class="home-section" id="publications">
@@ -198,7 +180,7 @@ redirect_from:
       <span data-lang="zh">代表论文</span>
     </h2>
   </div>
-  <div class="publication-list">
+  <div class="publication-list expandable-items" data-expand-list data-step="3">
     <article class="publication-item publication-item--featured">
       <div class="publication-meta"><span>ACL 2026 Main | Oral | CCF A</span></div>
       <h3>Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval</h3>
@@ -210,7 +192,7 @@ redirect_from:
       <p><mark>Rui Song</mark>, Lida Shi, Ruihua Qi, Yingji Li, and Hao Xu</p>
     </article>
     <article class="publication-item">
-      <div class="publication-meta"><span>SCIENCE CHINA Information Sciences 2025 | CCF A</span></div>
+      <div class="publication-meta"><span>SCIENCE CHINA Information Sciences 2025 | 中科院一区 Top | CCF A</span></div>
       <h3><a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning</a></h3>
       <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, and Hao Xu</p>
     </article>
@@ -219,45 +201,41 @@ redirect_from:
       <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29866">TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification</a></h3>
       <p><mark>Rui Song</mark>, Yingji Li, Fausto Giunchiglia, and Hao Xu</p>
     </article>
-  </div>
-  <details class="expandable-list">
-    <summary>
-      <span data-lang="en">Show more publications</span>
-      <span data-lang="zh">查看更多论文</span>
-    </summary>
-    <div class="publication-list publication-list--more">
-      <article class="publication-item">
-        <div class="publication-meta"><span>Information Processing & Management 2025 | CCF B</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">Causal keyword driven reliable text classification with large language model feedback</a></h3>
-        <p><mark>Rui Song</mark>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, and Hao Xu</p>
-      </article>
-      <article class="publication-item">
-        <div class="publication-meta"><span>Knowledge-Based Systems 2025 | CCF C</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection</a></h3>
-        <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, and Hao Xu</p>
-      </article>
-      <article class="publication-item">
-        <div class="publication-meta"><span>EAAI 2023 | CCF C</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0952197623004992">SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations</a></h3>
-        <p><mark>Rui Song</mark>, Fausto Giunchiglia, Lida Shi, Qiang Shen, and Hao Xu</p>
-      </article>
-      <article class="publication-item">
-        <div class="publication-meta"><span>Information Processing & Management | CCF B</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457323000146">Measuring and mitigating language model biases in abusive language detection</a></h3>
-        <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
-      </article>
-      <article class="publication-item">
-        <div class="publication-meta"><span>Information Processing & Management | CCF B</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457322001200">Improving abusive language detection with online interaction network</a></h3>
-        <p><mark>Rui Song</mark>, Fausto Giunchiglia, Qiang Shen, Nan Li, and Hao Xu</p>
-      </article>
-      <article class="publication-item">
-        <div class="publication-meta"><span>Information Sciences 2025 | CCF B</span></div>
-        <h3><a href="https://www.sciencedirect.com/science/article/pii/S0020025525007121">Counterfactual contrastive learning for robust text classification based on word group search</a></h3>
-        <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
-      </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Information Processing & Management 2025 | 中科院一区 Top | CCF B</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">Causal keyword driven reliable text classification with large language model feedback</a></h3>
+      <p><mark>Rui Song</mark>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, and Hao Xu</p>
+    </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Knowledge-Based Systems 2025 | 中科院一区 Top | CCF C</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, and Hao Xu</p>
+    </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Engineering Applications of Artificial Intelligence 2023 | 中科院一区 Top | CCF C</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0952197623004992">SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Lida Shi, Qiang Shen, and Hao Xu</p>
+    </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Information Processing & Management | 中科院一区 Top | CCF B</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457323000146">Measuring and mitigating language model biases in abusive language detection</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
+    </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Information Processing & Management | 中科院一区 Top | CCF B</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457322001200">Improving abusive language detection with online interaction network</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Qiang Shen, Nan Li, and Hao Xu</p>
+    </article>
+    <article class="publication-item is-hidden" data-expand-item>
+      <div class="publication-meta"><span>Information Sciences 2025 | 中科院二区 | CCF B</span></div>
+      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0020025525007121">Counterfactual contrastive learning for robust text classification based on word group search</a></h3>
+      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
+    </article>
+    <div class="list-controls">
+      <button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more publications">↓</button>
+      <button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse publications">↑</button>
     </div>
-  </details>
+  </div>
 </section>
 
 <section class="home-section">
