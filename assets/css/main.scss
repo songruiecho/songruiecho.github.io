@@ -163,6 +163,18 @@ body.lang-zh [data-lang="zh"] {
     display: inline !important;
 }
 
+.about-copy[data-lang="en"] {
+    display: block !important;
+}
+
+.about-copy[data-lang="zh"] {
+    display: none !important;
+}
+
+body.lang-zh .about-copy[data-lang="en"] {
+    display: none !important;
+}
+
 body.lang-zh p[data-lang="zh"],
 body.lang-zh .about-copy[data-lang="zh"] {
     display: block !important;
@@ -175,11 +187,11 @@ body.lang-zh .about-copy[data-lang="zh"] {
 
 @include breakpoint($large) {
     .sidebar {
-        width: 24%;
+        width: 20%;
     }
 
     .page {
-        width: 73%;
+        width: 78%;
         padding-left: 2%;
     }
 }
@@ -238,8 +250,16 @@ body.lang-zh .about-copy[data-lang="zh"] {
     }
 }
 
-.page__content > .home-section:first-child {
-    margin-top: 3.25rem;
+.page__content > .home-section:first-child,
+.page__content #about-me.home-section {
+    margin-top: 5.25rem !important;
+}
+
+.page__content #about-me.home-section:before {
+    display: none !important;
+    content: none !important;
+    height: 0 !important;
+    margin-top: 0 !important;
 }
 
 .focus-panel {
@@ -254,7 +274,6 @@ body.lang-zh .about-copy[data-lang="zh"] {
     }
 
     .about-copy {
-        display: block !important;
         width: 100% !important;
         max-width: none !important;
         min-width: 0;
@@ -477,7 +496,7 @@ body.lang-zh .about-copy[data-lang="zh"] {
 .author__research-tags {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
     gap: 0.4rem;
     margin: 0.75rem 0 1rem;
     max-width: 100%;
@@ -487,7 +506,7 @@ body.lang-zh .about-copy[data-lang="zh"] {
     span {
         display: inline-flex;
         align-items: center;
-        justify-content: center;
+        justify-content: flex-start;
         max-width: 100%;
         min-height: 1.6rem;
         padding: 0.18rem 0.48rem;
@@ -499,7 +518,7 @@ body.lang-zh .about-copy[data-lang="zh"] {
         font-size: 0.78rem;
         font-weight: 800;
         line-height: 1.25;
-        text-align: center;
+        text-align: left;
         white-space: normal;
     }
 }
