@@ -8,24 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<section class="home-hero" id="about-me">
-  <div class="hero-eyebrow">
-    <span data-lang="en">Postdoctoral Fellow | Natural Language Processing</span>
-    <span data-lang="zh">博士后 | 自然语言处理</span>
-  </div>
-  <h1>Rui Song</h1>
-  <p class="hero-lede" data-lang="en">
-    I study robust and trustworthy language intelligence, with a focus on
-    in-context learning, shortcut learning, bias mitigation in pretrained
-    language models, and AI-empowered ancient Chinese script research.
-  </p>
-  <p class="hero-lede" data-lang="zh">
-    我的研究聚焦稳健可信的语言智能，包括大语言模型上下文学习、捷径学习、
-    预训练语言模型偏见缓解，以及人工智能赋能古文字研究。
-  </p>
-</section>
-
-<section class="home-section focus-panel">
+<section class="home-section focus-panel" id="about-me">
   <div>
     <p class="section-kicker">
       <span data-lang="en">Current Position</span>
