@@ -111,6 +111,11 @@ redirect_from:
   </div>
   <div class="timeline-list expandable-items" data-expand-list data-step="2">
     <article>
+      <time>2026-09-23</time>
+      <p data-lang="en">Our paper <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:YFjsv_pBGBYC">"Automatic Prompt Debiasing via Contrastive Reflection for Fairness Enhancement in Large Language Models"</a> has been accepted by <em>Artificial Intelligence</em>, CCF A.</p>
+      <p data-lang="zh">论文 <a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:YFjsv_pBGBYC">"Automatic Prompt Debiasing via Contrastive Reflection for Fairness Enhancement in Large Language Models"</a> 已被 <em>Artificial Intelligence</em> 接收，CCF A。</p>
+    </article>
+    <article>
       <time>2026-08-22</time>
       <p data-lang="en">Our paper "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" has been accepted by <em>Information Fusion</em>, IF 17.4.</p>
       <p data-lang="zh">论文 "Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space" 被 <em>Information Fusion</em> 接收，IF 17.4。</p>
@@ -166,7 +171,7 @@ redirect_from:
   <div class="publication-list expandable-items" data-expand-list data-step="3">
     <article class="publication-item publication-item--featured">
       <div class="publication-meta"><span>ACL 2026 Main | Oral | CCF A</span></div>
-      <h3>Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval</h3>
+      <h3><a href="https://aclanthology.org/2026.acl-long.941/">Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval</a></h3>
       <p>Hao Xu, Rite Bo, Fausto Giunchiglia, Yingji Li, and <mark>Rui Song*</mark></p>
     </article>
     <article class="publication-item">
