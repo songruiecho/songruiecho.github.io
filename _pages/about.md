@@ -168,61 +168,86 @@ redirect_from:
       <span data-lang="zh">代表论文</span>
     </h2>
   </div>
-  <div class="publication-list expandable-items" data-expand-list data-step="3">
-    <article class="publication-item publication-item--featured">
-      <div class="publication-meta"><span>ACL 2026 Main | Oral | CCF A</span></div>
-      <h3><a href="https://aclanthology.org/2026.acl-long.941/">Toward Robust In-Context Learning: Leveraging Out-of-distribution Proxies for Target Inaccessible Demonstration Retrieval</a></h3>
-      <p>Hao Xu, Rite Bo, Fausto Giunchiglia, Yingji Li, and <mark>Rui Song*</mark></p>
-    </article>
-    <article class="publication-item">
-      <div class="publication-meta"><span>ACL 2026 Main | CCF A</span></div>
-      <h3><a href="https://arxiv.org/pdf/2604.11299">Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning</a></h3>
-      <p><mark>Rui Song</mark>, Lida Shi, Ruihua Qi, Yingji Li, and Hao Xu</p>
-    </article>
-    <article class="publication-item">
-      <div class="publication-meta"><span>SCIENCE CHINA Information Sciences 2025 | 中科院一区 Top | CCF A</span></div>
-      <h3><a href="http://engine.scichina.com/doi/10.1007/s11432-025-4558-9">Retrieval Augmentation for Out-of-Distribution Robustness in Non-knowledge Intensive In-Context Learning</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Mingjie Tian, and Hao Xu</p>
-    </article>
-    <article class="publication-item">
-      <div class="publication-meta"><span>AAAI 2024 | CCF A</span></div>
-      <h3><a href="https://ojs.aaai.org/index.php/AAAI/article/view/29866">TACIT: A Target-Agnostic Feature Disentanglement Framework for Cross-Domain Text Classification</a></h3>
-      <p><mark>Rui Song</mark>, Yingji Li, Fausto Giunchiglia, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Information Processing & Management 2025 | 中科院一区 Top | CCF B</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">Causal keyword driven reliable text classification with large language model feedback</a></h3>
-      <p><mark>Rui Song</mark>, Yingji Li, Mingjie Tian, Hanwen Wang, Fausto Giunchiglia, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Knowledge-Based Systems 2025 | 中科院一区 Top | CCF C</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0950705125006653">KALD: A knowledge augmented multi-contrastive learning model for low resource Abusive Language Detection</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Jian Li, Jingwen Wang, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Engineering Applications of Artificial Intelligence 2023 | 中科院一区 Top | CCF C</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0952197623004992">SUNET: Speaker-utterance interaction graph neural network for emotion recognition in conversations</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Lida Shi, Qiang Shen, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Information Processing & Management | 中科院一区 Top | CCF B</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457323000146">Measuring and mitigating language model biases in abusive language detection</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Information Processing & Management | 中科院一区 Top | CCF B</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0306457322001200">Improving abusive language detection with online interaction network</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Qiang Shen, Nan Li, and Hao Xu</p>
-    </article>
-    <article class="publication-item is-hidden" data-expand-item>
-      <div class="publication-meta"><span>Information Sciences 2025 | 中科院二区 | CCF B</span></div>
-      <h3><a href="https://www.sciencedirect.com/science/article/pii/S0020025525007121">Counterfactual contrastive learning for robust text classification based on word group search</a></h3>
-      <p><mark>Rui Song</mark>, Fausto Giunchiglia, Yingji Li, Lida Shi, and Hao Xu</p>
-    </article>
-    <div class="list-controls">
-      <button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more publications">↓</button>
-      <button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse publications">↑</button>
-    </div>
+  <div class="publication-groups">
+    <section class="publication-group expandable-items" data-expand-list data-step="2">
+      <div class="publication-group__heading">
+        <span class="publication-group__index">01</span>
+        <h3><span data-lang="en">AI for Humanity: Culture</span><span data-lang="zh">人文智能：文化</span></h3>
+        <span class="publication-group__count">3</span>
+      </div>
+      <div class="publication-list">
+        <article class="publication-item publication-item--featured">
+          <div class="publication-meta"><span>ACL 2026 Findings</span><span>CCF A</span></div>
+          <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:M3NEmzRMIkIC">ACSE: An Ancient Character Semantic-Aware Embedding for Large Language Models</a></h3>
+          <p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 4th of 7 authors</span><span data-lang="zh"> · 第 4 作者 / 共 7 位</span></p>
+        </article>
+        <article class="publication-item publication-item--featured">
+          <div class="publication-meta"><span>ACL 2026 Main</span><span>CCF A</span></div>
+          <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:isC4tDSrTZIC">Enhancing Multimodal Large Language Models for Ancient Chinese Character Evolution Analysis via Glyph-Driven Fine-Tuning</a></h3>
+          <p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p>
+        </article>
+        <article class="publication-item is-hidden" data-expand-item>
+          <div class="publication-meta"><span>AAAI 2026</span><span>CCF A</span></div>
+          <h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:r0BpntZqJG4C">AncientBench: Towards Comprehensive Evaluation on Excavated and Transmitted Chinese Corpora</a></h3>
+          <p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 6 authors</span><span data-lang="zh"> · 第 3 作者 / 共 6 位</span></p>
+        </article>
+      </div>
+      <div class="list-controls"><button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more culture publications">↓</button><button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse culture publications">↑</button></div>
+    </section>
+
+    <section class="publication-group expandable-items" data-expand-list data-step="2">
+      <div class="publication-group__heading">
+        <span class="publication-group__index">02</span>
+        <h3><span data-lang="en">AI for Humanity: Social Bias</span><span data-lang="zh">人文智能：社会偏见</span></h3>
+        <span class="publication-group__count">9</span>
+      </div>
+      <div class="publication-list">
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Artificial Intelligence 2026</span><span>中科院一区 Top</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:YFjsv_pBGBYC">Automatic Prompt Debiasing via Contrastive Reflection for Fairness Enhancement in Large Language Models</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 5 authors</span><span data-lang="zh"> · 第 3 作者 / 共 5 位</span></p></article>
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>ACL 2026 Findings</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:JV2RwH3_ST0C">Distilling the Essence, Discarding the Dross: Improving Fairness in Multimodal Large Language Models via Historical Reflection-Guided Prompt Optimization</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 6 authors</span><span data-lang="zh"> · 第 3 作者 / 共 6 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Expert Systems with Applications 2026</span><span>中科院一区 Top</span><span>CCF C</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:iH-uZ7U-co4C">Enhancing Fairness in Decision-Making of Natural Language Understanding Systems: An Intersectional Bias Debiasing Model via Information Theory-Based Disentanglement</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 4 authors</span><span data-lang="zh"> · 第 3 作者 / 共 4 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Artificial Intelligence 2025</span><span>中科院一区 Top</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:hFOr9nPyWt4C">BATED: Learning Fair Representation for Pre-Trained Language Models via Biased Teacher-Guided Disentanglement</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 5 authors</span><span data-lang="zh"> · 第 3 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>ACL 2024 Findings</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:4TOpqqG69KYC">Data-Centric Explainable Debiasing for Improving Fairness in Pre-Trained Language Models</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 5 authors</span><span data-lang="zh"> · 第 3 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Artificial Intelligence 2024</span><span>中科院一区 Top</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:_kc_bZDykSQC">Mitigating Social Biases of Pre-Trained Language Models via Contrastive Self-Debiasing with Double Data Augmentation</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 6 authors</span><span data-lang="zh"> · 第 3 作者 / 共 6 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>arXiv 2023</span><span>Preprint</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:ULOm3_A8WrAC">A Survey on Fairness in Large Language Models</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 5 authors</span><span data-lang="zh"> · 第 3 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Information Processing &amp; Management 2023</span><span>中科院一区 Top</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:hqOjcs7Dif8C">Measuring and Mitigating Language Model Biases in Abusive Language Detection</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Information Processing &amp; Management 2022</span><span>中科院一区 Top</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:IjCSPb-OGe4C">Improving Abusive Language Detection with Online Interaction Network</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+      </div>
+      <div class="list-controls"><button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more social bias publications">↓</button><button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse social bias publications">↑</button></div>
+    </section>
+
+    <section class="publication-group expandable-items" data-expand-list data-step="2">
+      <div class="publication-group__heading"><span class="publication-group__index">03</span><h3><span data-lang="en">In-Context Learning</span><span data-lang="zh">上下文学习</span></h3><span class="publication-group__count">5</span></div>
+      <div class="publication-list">
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Information Fusion 2027</span><span>中科院一区 Top</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:hMod-77fHWUC">Bottom-Up Competition Based on Label Hierarchy Trees for In-Context Learning with Large Label Space</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 2nd of 3 authors</span><span data-lang="zh"> · 第 2 作者 / 共 3 位</span></p></article>
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>ACL 2026 Findings</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:blknAaTinKkC">From Fake to Real: Mitigating Out-of-Distribution Bias in In-Context Learning via Feedback Supervision from Large Language Models</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>ACL 2026 Main</span><span>Oral</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:maZDTaKrznsC">Toward Robust In-Context Learning: Leveraging Out-of-Distribution Proxies for Target Inaccessible Demonstration Retrieval</a></h3><p class="publication-authorship"><strong>Rui Song*</strong><span data-lang="en"> · 5th of 5 authors</span><span data-lang="zh"> · 第 5 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>SCIENCE CHINA Information Sciences 2026</span><span>中科院一区 Top</span><span>CCF A</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:bEWYMUwI8FkC">Retrieval Augmentation for Out-of-Distribution Robustness in Non-Knowledge Intensive In-Context Learning</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>arXiv 2024</span><span>Preprint</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:mVmsd5A6BfQC">Shortcut Learning in In-Context Learning: A Survey</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+      </div>
+      <div class="list-controls"><button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more in-context learning publications">↓</button><button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse in-context learning publications">↑</button></div>
+    </section>
+
+    <section class="publication-group expandable-items" data-expand-list data-step="2">
+      <div class="publication-group__heading"><span class="publication-group__index">04</span><h3><span data-lang="en">Other NLP Applications</span><span data-lang="zh">其他自然语言处理应用</span></h3><span class="publication-group__count">8</span></div>
+      <div class="publication-list">
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Information Sciences 2025</span><span>中科院二区</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:HDshCWvjkbEC">Counterfactual Contrastive Learning for Robust Text Classification Based on Word Group Search</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>ICASSP 2025</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:qUcmZB5y_30C">DGJA: Dependency Graph-Enhanced Joint Attention Structure for Multimodal Sarcasm Detection</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 2nd of 5 authors</span><span data-lang="zh"> · 第 2 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>EMNLP 2024 Findings</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:ZeXyd9-uunAC">Self-Supervised Preference Optimization: Enhance Your Language Model with Preference Degree Awareness</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 6th of 9 authors</span><span data-lang="zh"> · 第 6 作者 / 共 9 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Applied Intelligence 2023</span><span>中科院二区</span><span>CCF C</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:Zph67rFs4hoC">Topological Enhanced Graph Neural Networks for Semi-Supervised Node Classification</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Expert Systems with Applications 2025</span><span>中科院一区 Top</span><span>CCF C</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:dhFuZR0502QC">Guiding Ontology Translation with Hubness-Aware Translation Memory</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 3rd of 4 authors</span><span data-lang="zh"> · 第 3 作者 / 共 4 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Information Processing &amp; Management 2023</span><span>中科院一区 Top</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:3fE2CSJIrl8C">Weak-PMLC: A Large-Scale Framework for Multi-Label Policy Classification Based on Extremely Weak Supervision</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 2nd of 5 authors</span><span data-lang="zh"> · 第 2 作者 / 共 5 位</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Engineering Applications of Artificial Intelligence 2023</span><span>中科院一区 Top</span><span>CCF C</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:0EnyYjriUFMC">SUNET: Speaker-Utterance Interaction Graph Neural Network for Emotion Recognition in Conversations</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+        <article class="publication-item is-hidden" data-expand-item><div class="publication-meta"><span>Applied Intelligence 2023</span><span>中科院二区</span><span>CCF C</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;cstart=20&amp;pagesize=80&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:9yKSN-GCB0IC">Label Prompt for Multi-Label Text Classification</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · 1st author</span><span data-lang="zh"> · 第一作者</span></p></article>
+      </div>
+      <div class="list-controls"><button class="arrow-control arrow-control--down" type="button" data-expand-more aria-label="Show more NLP publications">↓</button><button class="arrow-control arrow-control--up is-hidden" type="button" data-expand-collapse aria-label="Collapse NLP publications">↑</button></div>
+    </section>
+
+    <section class="publication-group">
+      <div class="publication-group__heading"><span class="publication-group__index">05</span><h3><span data-lang="en">AI for Library and Information Science</span><span data-lang="zh">图书情报智能</span></h3><span class="publication-group__count">1</span></div>
+      <div class="publication-list">
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Manuscript</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:BqipwSGYUEgC">Beyond the Noise: Early Identification of Emerging Technologies through Weak Signal Prediction in Higher-Order Networks</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · author order pending public indexing</span><span data-lang="zh"> · 作者次序待公开索引</span></p></article>
+      </div>
+    </section>
   </div>
 </section>
 

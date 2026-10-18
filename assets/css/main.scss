@@ -366,6 +366,54 @@ body.lang-zh .about-copy[data-lang="zh"] {
     line-height: 1.55;
 }
 
+.publication-groups {
+    display: grid;
+    gap: 1.4rem;
+}
+
+.publication-group {
+    padding-top: 0.25rem;
+}
+
+.publication-group + .publication-group {
+    padding-top: 1.4rem;
+    border-top: 1px solid rgba(43, 72, 101, 0.12);
+}
+
+.publication-group__heading {
+    display: grid;
+    grid-template-columns: auto minmax(0, 1fr) auto;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.8rem;
+
+    h3 {
+        margin: 0;
+        color: #17324d;
+        font-size: 1.16rem;
+        line-height: 1.35;
+    }
+}
+
+.publication-group__index,
+.publication-group__count {
+    display: inline-grid;
+    place-items: center;
+    min-width: 2rem;
+    min-height: 2rem;
+    border: 1px solid rgba(29, 95, 167, 0.18);
+    border-radius: 50%;
+    color: #194c82;
+    font-size: 0.72rem;
+    font-weight: 900;
+}
+
+.publication-group__count {
+    border-radius: 4px;
+    background: #f5f8fb;
+    color: #607284;
+}
+
 .publication-list {
     display: grid;
     gap: 0.9rem;
@@ -448,17 +496,34 @@ body.lang-zh .about-copy[data-lang="zh"] {
 
 .publication-item--featured {
     border-color: rgba(255, 195, 92, 0.55);
-    background: linear-gradient(135deg, #fffaf0, #ffffff 46%, #f8fbff);
+    background: #fffaf0;
 }
 
-.publication-meta span {
-    display: inline-flex;
-    padding: 0.24rem 0.55rem;
-    border-radius: 999px;
-    background: #eef6ff;
-    color: #194c82;
-    font-size: 0.78rem;
-    font-weight: 800;
+.publication-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+
+    span {
+        display: inline-flex;
+        align-items: center;
+        min-height: 1.55rem;
+        padding: 0.2rem 0.5rem;
+        border-radius: 999px;
+        background: #eef6ff;
+        color: #194c82;
+        font-size: 0.75rem;
+        font-weight: 800;
+        line-height: 1.2;
+    }
+}
+
+.publication-authorship {
+    font-size: 0.88rem;
+
+    strong {
+        color: #123f70;
+    }
 }
 
 .sidebar.sticky {
