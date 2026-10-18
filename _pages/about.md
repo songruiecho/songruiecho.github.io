@@ -245,7 +245,7 @@ redirect_from:
     <section class="publication-group">
       <div class="publication-group__heading"><span class="publication-group__index">05</span><h3><span data-lang="en">AI for Library and Information Science</span><span data-lang="zh">图书情报智能</span></h3><span class="publication-group__count">1</span></div>
       <div class="publication-list">
-        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Manuscript</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:BqipwSGYUEgC">Beyond the Noise: Early Identification of Emerging Technologies through Weak Signal Prediction in Higher-Order Networks</a></h3><p class="publication-authorship"><strong>Rui Song</strong><span data-lang="en"> · author order pending public indexing</span><span data-lang="zh"> · 作者次序待公开索引</span></p></article>
+        <article class="publication-item publication-item--featured"><div class="publication-meta"><span>Information Processing &amp; Management 2026</span><span>中科院一区 Top</span><span>CCF B</span></div><h3><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=sNqQk8kAAAAJ&amp;sortby=pubdate&amp;citation_for_view=sNqQk8kAAAAJ:BqipwSGYUEgC">Beyond the Noise: Early Identification of Emerging Technologies through Weak Signal Prediction in Higher-Order Networks</a></h3><p class="publication-authorship"><strong>Rui Song*</strong><span data-lang="en"> · 3rd of 3 authors · co-corresponding author</span><span data-lang="zh"> · 第 3 作者 / 共 3 位 · 共同通讯作者</span></p></article>
       </div>
     </section>
   </div>
